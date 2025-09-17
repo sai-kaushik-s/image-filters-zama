@@ -1,6 +1,16 @@
-# image-filters-zama
-
-A fork of Zama's Hugging face space for the image filter application using Concrete ML FHE library
+---
+title: Image Filtering On Encrypted Data Using Fully Homomorphic Encryption
+emoji: 📸 🌄
+colorFrom: purple
+colorTo: purple
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: true
+tags: [FHE, PPML, privacy, privacy preserving machine learning, image processing, 
+  homomorphic encryption, security]
+python_version: 3.8.16
+---
 
 # Image filtering using FHE
 
@@ -27,7 +37,7 @@ pip3 install -r requirements.txt --ignore-installed
 
 The above steps should only be done once.
 
-## Run the app
+## Run the app 
 
 In a terminal, run:
 
@@ -40,6 +50,7 @@ python3 app.py
 
 Open the given URL link (search for a line like `Running on local URL:  http://127.0.0.1:8888/`).
 
+
 ## Generate new filters
 
 It is also possible to manually add some new filters in `filters.py`. Yet, in order to be able to use
@@ -51,3 +62,4 @@ python3 generate_dev_filters.py
 ```
 
 Check it finishes well (by printing "Done!").
+
