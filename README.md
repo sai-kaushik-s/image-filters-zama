@@ -51,3 +51,15 @@ python3 generate_dev_filters.py
 ```
 
 Check it finishes well (by printing "Done!").
+
+## Comparison with Plaintext execution
+
+|   Filter Name   | Ciphertext Time | Plaintext Time |     Ratio     |
+| :-------------: | :-------------: | :------------: | :-----------: |
+|    Identity     |   1.230688696   |  0.001823844   | 674.777391049 |
+|     Inverse     |   1.408491823   |  0.000139474   | 10098.597753  |
+|     Rotate      |   1.519377885   |  0.003917765   | 387.817514578 |
+|    Grayscale    |   3.317794872   |  0.000217696   | 15240.4953329 |
+|      Blur       |   2.841465296   |  0.057426847   | 49.4797371689 |
+|     Sharpen     |   3.581822654   |  0.018348649   | 195.209067109 |
+| Ridge Detection |   2.442341568   |  0.020646856   | 118.29120947  |
